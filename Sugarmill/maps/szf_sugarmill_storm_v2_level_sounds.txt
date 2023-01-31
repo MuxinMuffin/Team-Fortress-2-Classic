@@ -1,0 +1,67 @@
+// ------------------------------------------------------------------------------------ //
+// SZF Sugarmill Level Sounds
+// ------------------------------------------------------------------------------------ //
+
+"Admin.TankAlert1"
+{
+	"channel"	"CHAN_VOICE2"
+	"volume"	"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"	"vo/mvm_tank_alerts01.mp3"
+		"wave"	"vo/mvm_tank_alerts02.mp3"
+	}
+}
+
+// Plays if more than one Tank has spawned during a round instead of TankAlert1
+"Admin.TankAlert2"
+{
+	"channel"	"CHAN_VOICE2"
+	"volume"	"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"	"vo/mvm_tank_alerts01.mp3"
+		"wave"	"vo/mvm_tank_alerts03.mp3"
+		"wave"	"vo/mvm_tank_alerts04.mp3"
+	}
+}
+
+"Admin.TankDeath"
+{
+	"channel"	"CHAN_VOICE2"
+	"volume"	"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"	"vo/mvm_general_destruction03.mp3"
+		"wave"	"vo/mvm_general_destruction04.mp3"
+		"wave"	"vo/mvm_general_destruction07.mp3"
+		"wave"	"vo/mvm_general_destruction08.mp3"
+		"wave"	"vo/mvm_general_destruction09.mp3"
+		"wave"	"vo/mvm_general_destruction12.mp3"
+	}
+}
+
+"Admin.LastManAlive"
+{
+	"channel"	"CHAN_VOICE2"
+	"volume"	"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"	"vo/Announcer_am_lastmanalive01.mp3"
+		"wave"	"vo/Announcer_am_lastmanalive02.mp3"
+		"wave"	"vo/Announcer_am_lastmanalive03.mp3"
+		"wave"	"vo/Announcer_am_lastmanalive04.mp3"
+	}
+}

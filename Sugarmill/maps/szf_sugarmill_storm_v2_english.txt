@@ -1,0 +1,8 @@
+Objective:
+Survivors must reach the escape zone while capturing all Control Points on their way. Infected must stop them to win.
+
+Other Notes:
+Infected cannot block captures.
+
+Community map by MuxinMuffin
+Original Left 4 Dead 2 map by Valve

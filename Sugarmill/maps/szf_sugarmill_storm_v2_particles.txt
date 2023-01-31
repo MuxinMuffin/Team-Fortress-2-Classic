@@ -1,0 +1,6 @@
+particles_manifest
+{
+"file" "!particles/fire01.pcf"
+file    "particles/rain_with_collision.pcf"
+file    "!particles/lightning.pcf"
+}
