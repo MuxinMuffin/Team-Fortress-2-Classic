@@ -1,0 +1,11 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "soho/StreetFloor001"
+	"$bumpmap"	"soho/StreetFloor001_normal"
+	"$basetexture2" "Nature/wetmudground002"
+	"$blendmodulatetexture" "Nature/grass_blendmask"
+	"$surfaceprop" "concrete"
+	"$surfaceprop2" "dirt"
+	"%keywords" "tf"
+
+}

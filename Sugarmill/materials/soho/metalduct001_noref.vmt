@@ -1,0 +1,8 @@
+"LightMappedGeneric"
+{
+	"$basetexture"	"soho/MetalDuct001"
+	"$surfaceprop"	"metal"
+	"$bumpmap" "Props/metalduct001a_normal"
+	"$normalmapalphaenvmapmask" 1
+	"%keywords" "tf"
+}
