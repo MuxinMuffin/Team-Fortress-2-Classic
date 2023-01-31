@@ -1,0 +1,843 @@
+// Soundscapes by @MuxinMuffin
+// in use for szf_sugarmill and szf_sugarmill_storm
+
+//generic utility soundscapes
+
+"urban2.respawn"
+{
+	"dsp"	"1"
+
+	// underlying area "tone"
+	"playlooping"
+	{
+		"volume"	"0.4"
+		"pitch"		"100"
+		"wave"		"ambient/ambience/crucial_smallroomtone_amb_loop.wav"
+	}
+}
+
+// replaced with stock tf sounds 
+"urban2.util_windgust"
+{
+
+	"dsp"	"1"
+	
+	"playrandom"
+	{
+		"time"		"6,40"
+		"volume"	"0.25,0.35"
+		"pitch"		"90,105"
+
+		"rndwave"
+		{
+			"wave"	"ambient\wind\wind_snippet2.wav"
+			"wave"	"ambient\wind\wind_snippet3.wav"
+			"wave"	"ambient\wind\wind_snippet5.wav"
+		}
+	}
+}
+
+"urban2.util_woodqueaks_new"
+{
+
+	"dsp"	"1"
+	
+	"playrandom"
+	{
+		"time"		"4,12"
+		"volume"	"0.7,0.9"
+		"pitch"		"50,115"
+		"position"	"random"
+
+		"rndwave"
+		{
+			"wave"	"ambient\materials\wood_creak1.wav"
+			"wave"	"ambient\materials\wood_creak2.wav"
+			"wave"	"ambient\materials\wood_creak3.wav"
+			"wave"	"ambient\materials\wood_creak4.wav"
+			"wave"	"ambient\materials\wood_creak5.wav"
+			"wave"	"ambient\materials\wood_creak6.wav"
+		}
+	}
+}
+
+"urban2.util_cicadas"
+{
+
+	"dsp"	"1"
+	
+	"playrandom"
+	{
+		"time"		"7,20"
+		"volume"	"1"
+		"pitch"		"97,105"
+		"position"	"random"
+
+		"rndwave"
+		{
+			"wave"	"ambient/Random_Amb_sounds/cicada_short_02.wav"
+			"wave"	"ambient/Random_Amb_sounds/cicada_short_03.wav"
+		}
+	}
+}
+
+"urban2.utilbirdsgroup1"
+{
+
+	"dsp"	"1"
+	
+	"playrandom"
+	{
+		"time"		"7,20"
+		"volume"	".5,1"
+		"pitch"		"97,105"
+		"position"	"random"
+
+		"rndwave"
+		{
+			"wave"	"ambient/random_animals/Single_Bird_01.wav"
+			"wave"	"ambient/random_animals/Single_Bird_02.wav"
+			"wave"	"ambient/random_animals/Single_Bird_03.wav"
+			"wave"	"ambient/random_animals/Single_Bird_04.wav"
+		}
+	}
+}
+
+//
+//Utility rainscapes
+//
+
+//
+// rain on hard surfaces
+//
+
+"rain.hardsurface.soft"
+{
+	"dsp"	"1"
+
+	// underlying area "tone"
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient\ambience\rainscapes\crucial_surfacerain_light_loop.wav"
+	}
+}
+
+"rain.hardsurface.med"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient\ambience\rainscapes\crucial_surfacerain_med_loop.wav"
+	}
+}
+
+"rain.hardsurface.hard"
+{
+	"dsp"	"1"
+
+	// underlying area "tone"
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient\ambience\rainscapes\crucial_surfacerain_hard_loop.wav"
+	}
+}
+
+//
+//rain on water
+//
+
+"rain.water.soft"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient\ambience\rainscapes\rain\crucial_waterrain_light_loop.wav"
+	}
+}
+
+"rain.water.med"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient\ambience\rainscapes\crucial_waterrain_med_loop.wav"
+	}
+}
+
+"rain.water.hard"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient\ambience\rainscapes\crucial_waterrain_hard_loop.wav"
+	}
+}
+
+//
+//interior rain
+//
+
+"rain.interior.soft"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient\ambience\rainscapes\interior_rain_med_loop.wav"
+	}
+}
+
+// same as interior.soft
+
+"rain.interior.med"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient\ambience\rainscapes\interior_rain_med_loop.wav"
+	}
+}
+
+// made for tf2
+"rain.interior.hard"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient\waterfallinside.wav"
+	}
+}
+
+"rain.interiorverb.med"
+{
+	"dsp"	"1"
+	
+	"playlooping"
+	{
+		"volume"	".85"
+		"pitch"		"100"
+		"wave"		"ambient\ambience\rainscapes\crucial_int_rainverb_med_loop.wav"
+	}
+}
+
+"rain.interiorverb.hard"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient\ambience\rainscapes\crucial_int_rainverb_hard_loop.wav"
+	}
+}
+
+//
+// thunder distant randoms
+//
+
+"distant.thunder"
+{
+	"dsp"	"1"
+	"playrandom"
+	{
+		"time"		"33,68"
+		"volume"	".6,1"
+		"pitch"		"90,105"
+		"position"	"random"
+
+		"rndwave"
+		{
+			"wave"	"ambient/ambience/rainscapes/Thunder_Distant01.wav"
+			"wave"	"ambient/ambience/rainscapes/Thunder_Distant02.wav"
+			"wave"	"ambient/ambience/rainscapes/Thunder_Distant03.wav"
+		}
+	}
+}
+
+// thunder distant randoms part of storm crucial
+
+"distant.thunder"
+{
+	"dsp"	"1"
+	"playrandom"
+	{
+		"time"		"33,68"
+		"volume"	".6,1"
+		"pitch"		"90,105"
+		"position"	"random"
+
+		"rndwave"
+		{
+			"wave"	"ambient/ambience/rainscapes/Thunder_Distant01.wav"
+			"wave"	"ambient/ambience/rainscapes/Thunder_Distant02.wav"
+			"wave"	"ambient/ambience/rainscapes/Thunder_Distant03.wav"
+		}
+	}
+}
+
+// c4m1 and c4m2 start
+
+"milltown.a.spawn"
+{
+	
+	"dsp" "1"
+
+	"playsoundscape" 
+ 	{
+		"name"	"milltown.a.ext"
+		"volume" "1"
+	}
+
+	"playlooping"
+	{
+		"volume"	".65"
+		"pitch"		"100"
+		"wave"		"ambient/spacial_loops/Dock_close_loop.wav"
+		"position"	"0"
+		"soundlevel" 	"SNDLVL_80dB"
+	}
+}
+
+"milltown.a.spawn.rain"
+{
+	
+	"dsp" "1"
+
+	"playsoundscape" 
+ 	{
+		"name"	"milltown.a.spawn"
+	}
+	
+	"playsoundscape"
+	{
+		"name"	"rain.hardsurface.soft"
+		"volume" "1"
+	} 
+}
+
+"milltown.a.ext"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"	"0.3"
+		"pitch"		"100"
+		"wave"		"ambient/ambience/crucial_Empty_street_wind_loop.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.48"
+		"pitch"		"100"
+		"wave"		"ambient/ambience/Bug_loop.wav"
+		"position"	"random"
+	}
+
+	"playsoundscape"
+	{
+		"name"	"distant.thunder"
+		"volume" "1"
+	}
+
+	"playsoundscape"
+	{
+		"name"	"urban2.utilbirdsgroup1"
+		"volume" ".2"
+	}
+	"playsoundscape"
+	{
+		"name"	"urban2.util_cicadas"
+		"volume" "1"
+	}
+
+	"playlooping"
+	{
+		"volume"	".29"
+		"pitch"		"100"
+		"wave"		"ambient/ambience/Cicada_Loop.wav"
+		"soundlevel" 	"SNDLVL_90dB"
+	}
+}
+
+"milltown.a.ext.rain"
+{
+	"dsp"	"1"
+	
+	"playsoundscape"
+	{
+		"name"	"milltown.a.ext"
+		"volume" "1"
+	} 
+	
+	"playsoundscape"
+	{
+		"name"	"rain.hardsurface.soft"
+		"volume" "1"
+	} 
+}
+
+"burgertank.a.interior"
+{
+	"dsp"	"1"
+
+	"playsoundscape" 
+ 	{
+		"name"	"milltown.a.ext"
+		"volume" ".4"
+	}
+}
+
+"burgertank.a.interior.rain"
+{
+	"dsp"	"1"
+
+	"playsoundscape" 
+ 	{
+		"name"	"burgertank.a.interior"
+		"volume" ".4"
+	}
+
+	"playsoundscape" 
+	{
+		"name"	"rain.hardsurface.light"
+		"volume" ".8"
+	}
+}
+
+"c4.house.a.interior"
+{
+	"dsp"	"1"
+	"playlooping"
+	{
+		"volume" 	".3"	
+		"pitch"	 	"100"
+		"wave"	"ambient/ambience/crucial_medroomtone_amb_loop.wav"
+
+	}
+
+	"playsoundscape" 
+ 	{
+		"name"	"urban2.util_woodqueaks_new"
+		"volume" ".77"
+	}
+
+	"playsoundscape" 
+ 	{
+		"name"	"milltown.a.ext"
+		"volume" ".3"
+	}
+}
+
+"c4.house.a.interior.rain"
+{
+	"dsp"	"1"
+
+	"playsoundscape" 
+ 	{
+		"name"	"c4.house.a.interior"
+	}
+
+	"playsoundscape" 
+	{
+		"name"	"rain.interior.soft"
+	}
+}
+
+"milltown.a.safehouse"
+{
+	
+	"dsp" "1"
+
+	"playsoundscape"
+	{
+		"name"	"urban2.respawn"
+		"volume" ".7"
+	} 
+	
+}
+
+"milltown.a.safehouse.rain"
+{
+	
+	"dsp" "1"
+
+	"playsoundscape"
+	{
+		"name"	"milltown.a.safehouse"
+		"volume" ".7"
+	} 
+	
+	"playsoundscape" 
+	{
+		"name"	"rain.interior.soft"
+		"volume" "1"
+	}
+}
+
+//=======================
+//=======================
+//   C4M2 sugarmill a 
+//=======================
+//=======================
+
+// sugarmill.a.spawn omitted see milltown.a.safehouse
+
+
+"sugarmill.a.exterior"
+{
+	
+	"dsp" "1"
+
+	"playsoundscape"
+	{
+		"name"	"milltown.a.ext"
+		"volume" ".96"
+	} 
+
+	"playsoundscape"
+	{
+		"name"	"distant.thunder"
+		"volume" ".6"
+	} 
+
+    //crucial rain soft omitting rain med dynamic
+	"playsoundscape" 
+	{
+		"name"	"rain.hardsurface.soft"
+		"volume" ".7"
+	}
+}
+
+// used on dropdown meant for map b
+"sugarmill.a.office.int"
+{
+	
+	"dsp" "1"
+	"playsoundscape"
+	{
+		"name"	"urban2.util_windgust"
+		"volume" "1"
+	}
+
+//rain soft
+	"playsoundscape" 
+	{
+		"name"	"rain.interiorverb.med"
+		"volume" "1"
+	}
+
+//rain med omitt dynamic
+	"playsoundscape" 
+	{
+		"name"	"rain.interiorverb.med"
+		"volume" "1"
+	}
+}
+
+// no wind variant
+"sugarmill.a.office.closed"
+{
+	
+	"dsp" "1"
+	"playsoundscape"
+	{
+		"name"	"urban2.respawn"
+		"volume" ".7"
+	} 
+
+//switch to med omitting dynamic
+
+	"playsoundscape" 
+	{
+		"name"	"rain.interior.med"
+		"volume" "1"
+	}
+}
+
+"sugarmill.a.pipeyard"
+{
+	
+	"dsp" "1"
+
+	"playsoundscape"
+	{
+		"name"	"milltown.a.ext"
+		"volume" ".7"
+	} 
+	"playsoundscape"
+	{
+		"name"	"urban2.util_windgust"
+		"volume" "1"
+	}
+
+	"playsoundscape"
+	{
+		"name"	"distant.thunder"
+		"volume" ".6"
+	}
+
+//rain med omitt dynamic
+	"playsoundscape" 
+	{
+		"name"	"rain.hardsurface.med"
+		"volume" "1"
+	}
+}
+
+"sugarmill.a.pipeyard.transition"
+{
+	
+	"dsp" "1"
+
+	"playsoundscape"
+	{
+		"name"	"milltown.a.ext"
+		"volume" ".5"
+	}
+
+//rain med omitt dynamic and light
+	"playsoundscape" 
+	{
+		"name"	"rain.hardsurface.med"
+		"volume" ".4"
+	}
+	
+    "playlooping"
+	{
+		"volume"	".5"
+		"pitch"		"100"
+		"wave"		"vehicles\diesel_loop2.wav"
+		"position"	"0"
+	}
+}
+
+"sugarmill.a.courtyard"
+{
+	
+	"dsp" "1"
+
+	"playsoundscape"
+	{
+		"name"	"milltown.a.ext"
+		"volume" ".7"
+	}
+
+//rain med omitt soft med dynamic and metalrain_hard
+	"playsoundscape" 
+	{
+		"name"	"rain.hardsurface.med"
+		"volume" "1"
+	}
+
+	"playlooping"
+	{
+		"volume"	".7"
+		"pitch"		"100"
+		"wave"		"ambient/ambience/rainscapes/metalrain_med_loop.wav"
+		"position"	"0"
+		"soundlevel" 	"SNDLVL_150dB"
+	}
+		// witch cries 1
+//	"playrandom"
+//	{
+//		"time"		"7,25"
+//		"volume"	".6"
+//		"pitch"	"100"
+//		"position"	"1"
+//
+//		"rndwave"
+//		{
+//			"wave"	"npc/witch/voice/idle/walking_cry_07.wav"
+//			"wave"	"npc/witch/voice/idle/walking_cry_10.wav"
+//			"wave"	"npc/witch/voice/idle/walking_cry_11.wav"
+//			"wave"	"npc/witch/voice/idle/walking_cry_12.wav"
+//		}
+//	}
+	
+	// witch cries 2
+	"playrandom"
+	{
+		"time"		"7,25"
+		"volume"	".6"
+		"pitch"	"100"
+		"position"	"2"
+
+		"rndwave"
+		{
+			"wave"	"npc/witch/voice/idle/walking_cry_07.wav"
+			"wave"	"npc/witch/voice/idle/walking_cry_10.wav"
+			"wave"	"npc/witch/voice/idle/walking_cry_11.wav"
+			"wave"	"npc/witch/voice/idle/walking_cry_12.wav"
+		}
+	}
+}
+
+"sugarmill.a.trailerinterior"
+{
+	
+	"dsp" "1"
+
+	"playsoundscape"
+	{
+		"name"	"urban2.respawn"
+		"volume" ".8"
+	}
+// omitt light and dyn
+	"playsoundscape" 
+	{
+		"name"	"rain.interior.med"
+		"volume" "1"
+	}
+}
+
+"sugarmill.a.lockerroom.int"
+{
+	
+	"dsp" "1"
+
+	"playsoundscape"
+	{
+		"name"	"urban2.respawn"
+		"volume" ".7"
+	}
+// omitt light and med dynamic
+	"playsoundscape" 
+	{
+		"name"	"rain.interior.med"
+		"volume" "1"
+	}
+}
+
+"sugarmill.a.mill"
+{
+	
+	"dsp" "1"
+	"playsoundscape"
+	{
+		"name"	"milltown.a.ext"
+		"volume" ".7"
+	}
+
+    "playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient\fire\fire_small_loop1.wav"
+		"position"	"0"
+		"soundlevel" 	"SNDLVL_70dB"
+	}
+
+    "playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient\fire\fire_small_loop2.wav"
+		"position"	"1"
+		"soundlevel" 	"SNDLVL_70dB"
+	}
+
+//rain soft omitt dynamic
+	"playsoundscape" 
+	{
+		"name"	"rain.interiorverb.med"
+		"volume" "1"
+	}
+}
+
+"sugarmill.a.cornfield"
+{
+	
+	"dsp" "1"
+
+//rain med omitt soft and med dynamic
+	"playsoundscape" 
+	{
+		"name"	"rain.hardsurface.med"
+		"volume" "1"
+	}
+
+	"playsoundscape"
+	{
+		"name"	"distant.thunder"
+		"volume" "1"
+	}
+
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient/ambience/rainscapes/metalrain_med_loop.wav"
+		"position"	"0"
+		"soundlevel" 	"SNDLVL_80dB"
+	}
+	
+"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"vehicles\diesel_loop2.wav"
+		"position"	"1"
+	}
+	
+	// witch cries 3
+	"playrandom"
+	{
+		"time"		"7,25"
+		"volume"	".5"
+		"pitch"	"100"
+		"position"	"2"
+
+		"rndwave"
+		{
+			"wave"	"npc/witch/voice/idle/walking_cry_07.wav"
+			"wave"	"npc/witch/voice/idle/walking_cry_10.wav"
+			"wave"	"npc/witch/voice/idle/walking_cry_11.wav"
+			"wave"	"npc/witch/voice/idle/walking_cry_12.wav"
+		}
+	}
+}
+
+"sugarmill.a.gasstation.int"
+{
+	
+	"dsp" "1"
+
+	"playsoundscape"
+	{
+		"name"	"urban2.respawn"
+		"volume" ".7"
+	}
+
+	// omitt soft 
+	"playsoundscape" 
+	{
+		"name"	"rain.interior.med"
+		"volume" "1"
+	}
+}
